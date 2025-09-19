@@ -201,12 +201,45 @@ npm start  # Runs on http://localhost:3000
 - Dynamic confidence scoring
 - Admin validation system
 
-### 🔄 **Planned Enhancements**
-- Social media integration (Twitter, Facebook)
-- Enhanced mapping with hotspots
-- INCOIS/IMD official system integration
-- Multilingual support (Hindi, Tamil, etc.)
-- Offline capabilities with Bluetooth mesh network
+### 🔄 **Future Enhancements**
+
+### **🚨 Phase 1: Core INCOIS Requirements (Days 1-5)**
+1. **Database Migration** - Scalable PostgreSQL foundation
+2. **Enhanced Interactive Map** - Real-time visualization with hotspots
+3. **Dynamic Hotspot Generation** - Report density and verified threat indicators
+4. **Advanced Filtering System** - Location, event type, date, source filters
+5. **Role-based Access Control** - Citizens, officials, analysts with different permissions
+
+### **🤖 Phase 2: AI & Intelligence (Days 6-10)**
+6. **Image Classification Pipeline** - Disaster image verification
+7. **NLP Engine Enhancement** - Hazard keyword detection and engagement metrics
+8. **Social Media Integration** - Twitter, Facebook feeds with NLP processing
+9. **Social Media Sentiment Analysis** - Scale, urgency, and sentiment understanding
+10. **Multi-source Data Fusion** - Combine citizen reports + social media + official data
+
+### **🌐 Phase 3: Critical Platform Features (Days 11-15)**
+11. **User Registration System** - Complete citizen/official profiles
+12. **Mobile-Responsive Interface** - Essential for field reporting
+13. **Media Upload & Processing** - Photos/videos with geotagging
+14. **Real-time Dashboard Updates** - Live crowd reports and social activity
+15. **Multilingual Support** - Regional Indian languages for accessibility
+
+### **📡 Phase 4: Integration & Offline (Days 16-20)**
+16. **INCOIS Early Warning Integration** - Connect with existing systems
+17. **IMD Data Integration** - Weather and storm data correlation
+18. **Offline Data Collection** - Remote coastal area support with sync
+19. **API for External Systems** - Integration capabilities for other agencies
+20. **Emergency Alert System** - Fast validation and warning distribution
+
+### **👥 Phase 5: Community Features & Engagement (Days 21-28)**
+21. **Citizen Authentication System** - Login, registration, profile management
+22. **Dynamic Credibility Scoring** - Reputation system based on report accuracy
+23. **Localized Report Feed** - 10-15km radius community dashboard for citizens
+24. **Community Verification System** - Citizens can confirm/dispute local reports
+25. **Gamification Elements** - Achievement badges, leaderboards, credibility levels
+26. **SOS Emergency Button** - One-click emergency reporting for citizens
+27. **Bluetooth Mesh Network** - Report hopping between devices in remote areas
+28. **Enhanced Community Dashboard** - Personal stats, local safety status, achievements
 
 ## 🛡️ Security Features
 - Input validation and sanitization
